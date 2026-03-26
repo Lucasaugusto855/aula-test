@@ -1,0 +1,29 @@
+public class Setes {
+
+    public static void main(String[] args) {
+         Scanner sc = new Scanner(System.in);
+         
+         
+            System.out.println("1 - Cadastrar" );
+            System.out.println("2 - Listar");
+            System.out.println("3 - sair");
+            
+              int opcao = sc.nextInt();
+              switch (opcao) {
+                  case 1:
+                      System.out.println("Opção Cadastrar escolhida");
+                             break;
+                             
+                  case 2:
+                      System.out.println("Opção Listar escolhida");
+                             break;
+                             
+                  case 3:  
+                      System.out.println("Saindo...");
+                             break;
+                             
+                  default:
+                         System.out.println("Opção inválida");
+                         
+                         sc.close();
+              }   
