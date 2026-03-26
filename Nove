@@ -1,0 +1,28 @@
+public class Nove {
+
+    public static void main(String[] args) {
+        
+        Scanner sc = new Scanner (System.in);
+        
+        double n1;
+        double n2;
+        double  media;
+        
+         System.out.println("Digite a primerira nota: ");
+         n1 = sc.nextDouble();
+         
+         System.out.println("Digite a segunda nota: ");
+         n2 = sc.nextDouble();
+         
+         media = (n1 + n2);
+         
+         System.out.println("media: " + media);
+         
+         if(media >= 70) {
+             System.out.println("Aprovado");
+         } else if (media >= 50) {
+             System.out.println("Recuperação");
+             
+         }else { 
+             System.out.println("Reprovado");
+         }
