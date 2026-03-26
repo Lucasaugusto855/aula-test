@@ -1,0 +1,58 @@
+import java.utill.Scanner;
+
+public class Quinze {
+
+    public static void main(String[] args) {
+        
+        Scanner sc = new Scanner(System.in);
+        int opcao;
+
+        do {
+            System.out.println("\n=== MENU ===");
+            System.out.println(" Mostrar números de 1 a 10");
+            System.out.println(" Mostrar pares de 1 a 20");
+            System.out.println(" Mostrar tabuada do 3");
+            System.out.println(" Sair");
+            System.out.print("Escolha uma opção: ");
+            
+            opcao = Scanner.nextInt();
+
+            switch (opcao) {
+                case 1:
+                    System.out.println("\nNúmeros de 1 a 10:");
+                    for (int i = 1; i <= 10; i++) {
+                        System.out.print(i + " ");
+                    }
+                    System.out.println();
+                    break;
+
+                case 2:
+                    System.out.println("\nNúmeros pares de 1 a 20:");
+                    for (int i = 1; i <= 20; i++) {
+                        if (i % 2 == 0) {
+                            System.out.print(i + " ");
+                        }
+                    }
+                    System.out.println();
+                    break;
+
+                case 3:
+                    System.out.println("\nTabuada do 3:");
+                    for (int i = 1; i <= 10; i++) {
+                        System.out.println("3 x " + i + " = " + (3 * i));
+                    }
+                    break;
+
+                case 0:
+                    System.out.println("Saindo do sistema...");
+                    break;
+
+                default:
+                    System.out.println("Opção inválida!");
+            }
+
+        } while (opcao != 0);
+
+        Scanner.close();
+    }
+}
