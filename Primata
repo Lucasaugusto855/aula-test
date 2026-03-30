@@ -1,0 +1,9 @@
+public class Primata {
+
+    public static void main(String[] args) {
+      
+        String texto = "Exemplo de String";
+        
+        System.out.println("Quantidade de caracteres:" + texto.length());
+    }
+}
