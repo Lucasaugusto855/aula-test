@@ -1,0 +1,20 @@
+public class Quatro {
+
+    public static void main(String[] args) {
+       int[] vetor = {3, 7, 2, 9, 5, 1, 8, 4};
+        int menor = vetor[0];
+
+        for (int i = 1; i < vetor.length; i++) {
+            if (vetor[i] < menor) {
+                menor = vetor[i];
+            }
+            
+        }
+
+        System.out.println("Menor valor: " + menor);
+        
+    }
+}
+
+    }
+}
