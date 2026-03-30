@@ -1,0 +1,22 @@
+public class Treze {
+
+    public static void main(String[] args) {
+      
+        Scanner sc = new
+       Scanner(System.in);
+        
+        System.out.println("Digite uma frase");
+        String frase = sc.nextLine();
+        
+        System.out.println("Digite a palavra que deseja buscar");
+        String palavra = sc.nextLine();
+        
+        if (frase.contains(palavra)) {
+            System.out.println("A frase contem a palavra");
+        } else {
+            System.out.println("A frase NÃO contem a palavra");
+        }
+                
+        sc.close();
+    }
+}
