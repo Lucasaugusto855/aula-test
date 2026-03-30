@@ -1,0 +1,23 @@
+public class Quatorze {
+
+    public static void main(String[] args) {
+       
+        Scanner sc = new
+       Scanner(System.in);
+        
+        System.out.println("Digite a primeira string");
+        String s1 = sc.nextLine();
+        
+        System.out.println("Digite a segunda string");
+        String s2 = sc.nextLine();
+        
+        if (s1.equals(s2)) {
+           System.out.println("As strings sao iguais");
+            
+        } else {
+            System.out.println("As strings sao diferentes");
+            
+        }
+        sc.close();
+    }
+}
