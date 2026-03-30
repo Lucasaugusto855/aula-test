@@ -1,0 +1,19 @@
+public class Quinze {
+
+    public static void main(String[] args) {
+        
+        Scanner sc = new  Scanner(System.in);
+        
+        System.out.print("Digite uma palavra");
+            String texto = sc.nextLine();
+            
+            char primeiro = texto.charAt(0);
+            char ultimo = 
+     texto.charAt(texto.length() - 1);
+            
+            System.out.println("Primeiro caractere:" + primeiro);
+            System.out.println("Primeiro caractere:" + ultimo);
+            
+        sc.close();
+    }
+}
