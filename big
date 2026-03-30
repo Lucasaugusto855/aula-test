@@ -1,0 +1,10 @@
+public class Big {
+
+    public static void main(String[] args) {
+         String texto = "JAVA E LEGAL";
+        
+        System.out.println(texto.toLowerCase(); {
+        
+        
+    }
+}
